@@ -53,15 +53,15 @@ pdftotext: http://macappstore.org/pdftotext/ or `pip install pdftotext` (python 
 
 * `manual.py` is for screening files containing amino acids and/or nucleotides and counting the number of occurrences of amino acids and/or nucleotides. These files will need to be manually extracted.
 
-### How `suppdata_scraper.py` Works
+### How suppdata_scraper.py Works
 
 **Input:** Directory of supplemental data files scraped from the web. These files can be any of the following type:
 
-- `pdf`
-- `doc/docx`
-- `txt`
-- `xls/xlsx`
-- `csv/tsv`
+- pdf
+- doc/docx
+- txt
+- xls/xlsx
+- csv/tsv
 
 **Output:** 
 
