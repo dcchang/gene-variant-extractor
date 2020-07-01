@@ -68,13 +68,13 @@ pdftotext: http://macappstore.org/pdftotext/ or `pip install pdftotext` (python 
 * `output` folder with following:
 	* `masterlist.txt` --> **Main output.** All gene variants are stored with files they came from. Also `masterlist.csv` and `masterlist.xlsx`, which contain same info in different file type.
 	* Following `.txt` files that characterize data:
-		- files_processed.txt: filenames and index in list
-		- bad_files.txt: files that produce an error
-		- good_files.txt: files that contain gene variants
-		- manual.txt: files that contain nucleotides or amino acids
-		- files_ignored.txt: Other file types such as media files that are not relevant
-		- variant_counts.txt: Counts for total number of different gene variants for each file that contains data
-		- process_time.txt: File size and time it takes for script to process each file
+		- `files_processed.txt`: filenames and index in list
+		- `bad_files.txt`: files that produce an error
+		- `good_files.txt`: files that contain gene variants
+		- `manual.txt`: files that contain nucleotides or amino acids
+		- `files_ignored.txt`: Other file types such as media files that are not relevant
+		- `variant_counts.txt`: Counts for total number of different gene variants for each file that contains data
+		- `process_time.txt`: File size and time it takes for script to process each file
 * `dataframes` folder with dataframe files containing data extracted from all files
 * `manual` folder with files that need to be manually extracted and have been copied over
 * `big_files_manual` folder containing large files that need to be manually extracted and have been copied over
