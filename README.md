@@ -4,7 +4,7 @@
 
 **Date:** Summer 2018
 
-This repository contains **python** code used to parse and organize gene variants from supplemental data files associated with human genome research articles.
+This repository contains **python** code used to parse and organize gene variants from supplemental data files associated with human genomics research articles.
 
 Code is in **src**.
 
